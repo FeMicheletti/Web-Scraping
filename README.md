@@ -1,6 +1,6 @@
 # Web-Scraping
 
-Repository create for share my studies in web scraping in some languages
+Repository create for share my studies in web scraping in some languages.
 
 ## Languages
 - Python
@@ -18,9 +18,9 @@ Repository create for share my studies in web scraping in some languages
 ### Javascript
 - Progress: <b>0%</b>
 - Plan
-    - Access Pichau, Terabyte and Kabum to scrap the prices by processor
+    - Access Yahoo to scrape the changes on the first 5 pages
     - Show the results in html or excel (To decide)
-    - Show the better price in cash and in installments
+    - display which is rising and which is falling, trying to create a graph of the changes currently
 
 --- 
 
