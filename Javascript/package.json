@@ -1,0 +1,17 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "My first Web Scraping with JS",
+  "main": "index.js",
+  "scripts": {
+    "scrap": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "types": "module",
+  "dependencies": {
+    "puppeteer": "^22.15.0"
+  }
+}

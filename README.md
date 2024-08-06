@@ -16,7 +16,7 @@ Repository create for share my studies in web scraping in some languages.
 ---
 
 ### Javascript
-- Progress: <b>0%</b>
+- Progress: <b>75%</b>
 - Plan
     - Access Yahoo to scrape the changes on the first 5 pages
     - Show the results in html or excel (To decide)
