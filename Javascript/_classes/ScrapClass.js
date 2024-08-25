@@ -58,9 +58,9 @@ export default class ScrapClass extends BaseScrap {
             thisClass.hasNextPage = document.querySelectorAll(thisClass.nextPageQuery);
 
             //* Get values and put in an array
-            const nameSelector   = document.querySelectorAll(thisClass.productNameQuery);
-            const price1Selector = document.querySelectorAll(thisClass.inCashPriceQuery);
-            const price2Selector = document.querySelectorAll(thisClass.inInstallmentsQuery);
+            const nameSelector   = document.querySelectorAll(thisClass.cryptoNameQuery);
+            const price1Selector = document.querySelectorAll(thisClass.priceQuery);
+            const price2Selector = document.querySelectorAll(thisClass.percChangeQuery);
 
             return Array.from(nameSelector).map((el, i) => {
                 const name   = nameSelector[i].innerText;

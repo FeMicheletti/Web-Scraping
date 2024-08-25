@@ -16,11 +16,10 @@ Repository create for share my studies in web scraping in some languages.
 ---
 
 ### Javascript
-- Progress: <b>90%</b>
+- Progress: <b>100%</b>
 - Plan
     - Access Yahoo to scrape the changes on the first 5 pages
-    - Show the results in html or excel (To decide)
-    - display which is rising and which is falling, trying to create a graph of the changes currently
+    - Show the results in html table
 
 --- 
 

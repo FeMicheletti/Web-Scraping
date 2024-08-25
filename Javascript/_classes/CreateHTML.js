@@ -56,30 +56,15 @@ export default class CreateHTML {
                     margin: 0;
                     height: 100%;
                     font-family: 'Inter';
-                    background-color: #b554d4;
+                    background-color: #000000;
                 }
 
                 .container {
                     position: relative;
                     width: 100%;
                     margin: 0 auto;
-                }
-
-                .title {
-                    background: #6d008d;
-                    color: white;
-                    width: 100%;
-                    height: 40px;
-                    align-items: center;
+                    display: flex; 
                     justify-content: center;
-                    display: flex;
-                    font-size: 24px;
-                }
-
-                .table {
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 15px;
                 }
 
                 table {
@@ -118,9 +103,6 @@ export default class CreateHTML {
 
         body += `<body>`;
             body += `<div class="container">`;
-                body += `<div class="title">`;
-                    body += `<span>Crypto Better</span>`;
-                body += `</div>`;
                 body += this.getTable();
             body += `</div>`;
         body += `</body>`;
@@ -135,7 +117,7 @@ export default class CreateHTML {
             table += `<tr>`;
                 table += `<th>Name</th>`;
                 table += `<th>Value (USD)</th>`;
-                table += `<th>Change</th>`;
+                table += `<th>Change (USD)</th>`;
                 table += `<th>Change (%)</th>`;
                 table += `<th>Value in Real (R$)</th>`;
             table += `</tr>`;
@@ -169,10 +151,10 @@ export default class CreateHTML {
 
         td += `<tr>`;
             td += `<td>${cryptoName}</td>`;
-            td += `<td>${cryptoPrice}</td>`;
-            td += `<td>${cryptoChange}</td>`;
+            td += `<td>$ ${cryptoPrice}</td>`;
+            td += `<td>$ ${cryptoChange}</td>`;
             td += `<td>${cryptoChangePerc}</td>`;
-            td += `<td>${cryptoReal}</td>`;
+            td += `<td>R$ ${cryptoReal}</td>`;
         td += `</tr>`;
         return td;
     }
